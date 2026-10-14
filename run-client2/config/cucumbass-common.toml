@@ -1,0 +1,2 @@
+#Enables /cucumbass developer commands. Disable this on production servers.
+enableDebugCommands = true

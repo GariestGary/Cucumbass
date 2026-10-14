@@ -1,0 +1,8 @@
+{
+  "item.cucumbass.basic_cucumber": "Базовый огурец",
+  "item.cucumbass.basic_cucumber.tooltip": "Устанавливается другому игроку: следующий положительный урон уменьшается на 50%.",
+  "command.cucumbass.status": "Огурцы: занято %s/%s, свободно %s. [%s]",
+  "command.cucumbass.debug.no_available_slot": "Нет свободных слотов для огурцов.",
+  "command.cucumbass.debug.inserted": "Базовый огурец добавлен.",
+  "command.cucumbass.debug.cleared": "Все слоты для огурцов очищены."
+}

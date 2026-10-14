@@ -1,0 +1,8 @@
+{
+  "item.cucumbass.basic_cucumber": "Basic Cucumber",
+  "item.cucumbass.basic_cucumber.tooltip": "Installed on another player: their next positive damage is reduced by 50%.",
+  "command.cucumbass.status": "Cucumbers: %s/%s installed, %s free. [%s]",
+  "command.cucumbass.debug.no_available_slot": "No cucumber slots are available.",
+  "command.cucumbass.debug.inserted": "Inserted a Basic Cucumber.",
+  "command.cucumbass.debug.cleared": "Cleared all cucumber slots."
+}

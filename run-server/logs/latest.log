@@ -1,0 +1,70 @@
+[14Oct2026 13:18:57.874] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher running: args [--launchTarget, forgeserverdev, --gameDir, ., --fml.fmlVersion, 4.0.45, --fml.mcVersion, 1.21.1, --fml.neoForgeVersion, 21.1.259, --fml.neoFormVersion, 20240808.144430, --nogui]
+[14Oct2026 13:18:57.878] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: JVM identified as Oracle Corporation Java HotSpot(TM) 64-Bit Server VM 21.0.12+7-LTS-205
+[14Oct2026 13:18:57.880] [main/INFO] [cpw.mods.modlauncher.Launcher/MODLAUNCHER]: ModLauncher 11.0.5+main.901c6ea8 starting: java version 21.0.12 by Oracle Corporation; OS Windows 11 arch amd64 version 10.0
+[14Oct2026 13:18:57.989] [main/INFO] [net.neoforged.fml.loading.ImmediateWindowHandler/]: ImmediateWindowProvider not loading because launch target is forgeserverdev
+[14Oct2026 13:18:58.045] [main/INFO] [mixin/]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=union:/C:/Users/gary/.gradle/caches/modules-2/files-2.1/net.fabricmc/sponge-mixin/0.16.4+mixin.0.8.7/26d01f0567ab46e9ca0d2ed89d0ecc11aadbd433/sponge-mixin-0.16.4+mixin.0.8.7.jar%2394!/ Service=ModLauncher Env=SERVER
+[14Oct2026 13:18:58.391] [main/INFO] [net.neoforged.fml.loading.moddiscovery.locators.JarInJarDependencyLocator/]: Found 2 dependencies adding them to mods collection
+[14Oct2026 13:18:58.392] [main/INFO] [net.neoforged.fml.loading.moddiscovery.ModDiscoverer/]: 
+     Mod List:
+		Name Version (Mod Id)
+
+		Cucumbass 1.0.0 (cucumbass)
+		Minecraft 1.21.1 (minecraft)
+		NeoForge 21.1.259 (neoforge)
+[14Oct2026 13:18:59.096] [main/INFO] [cpw.mods.modlauncher.LaunchServiceHandler/MODLAUNCHER]: Launching target 'forgeserverdev' with arguments [--gameDir, ., --nogui]
+[14Oct2026 13:19:00.083] [main/INFO] [MixinExtras|Service/]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.5.5).
+[14Oct2026 13:19:04.992] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2026 13:19:04.993] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, location] and [teleport, targets] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2026 13:19:04.996] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, destination] and [teleport, targets] with inputs: [Player, 0123, @e, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Oct2026 13:19:04.997] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets] and [teleport, destination] with inputs: [Player, 0123, dd12be42-52a9-4a91-a8a1-11c01849e498]
+[14Oct2026 13:19:04.998] [main/WARN] [net.minecraft.commands.Commands/]: Ambiguity between arguments [teleport, targets, location] and [teleport, targets, destination] with inputs: [0.1 -0.5 .9, 0 0 0]
+[14Oct2026 13:19:05.059] [modloading-worker-0/INFO] [net.neoforged.neoforge.common.NeoForgeMod/NEOFORGE-MOD]: NeoForge mod loading, version 21.1.259, for MC 1.21.1
+[14Oct2026 13:19:05.386] [main/INFO] [com.mojang.authlib.yggdrasil.YggdrasilAuthenticationService/]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[14Oct2026 13:19:05.536] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/Projects/Minecraft/Cucumbass/build/moddev/artifacts/neoforge-21.1.259.jar%23125!/assets/.mcassetsroot' uses unexpected schema
+[14Oct2026 13:19:05.536] [main/WARN] [net.minecraft.server.packs.VanillaPackResourcesBuilder/]: Assets URL 'union:/E:/Projects/Minecraft/Cucumbass/build/moddev/artifacts/neoforge-21.1.259.jar%23125!/data/.mcassetsroot' uses unexpected schema
+[14Oct2026 13:19:06.335] [main/INFO] [net.minecraft.world.item.crafting.RecipeManager/]: Loaded 1290 recipes
+[14Oct2026 13:19:06.485] [main/INFO] [net.minecraft.advancements.AdvancementTree/]: Loaded 1399 advancements
+[14Oct2026 13:19:06.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting minecraft server version 1.21.1
+[14Oct2026 13:19:06.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Loading properties
+[14Oct2026 13:19:06.889] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Default game type: SURVIVAL
+[14Oct2026 13:19:06.889] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Generating keypair
+[14Oct2026 13:19:06.971] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Starting Minecraft server on *:25565
+[14Oct2026 13:19:07.016] [Server thread/INFO] [net.minecraft.server.network.ServerConnectionListener/]: Using default channel type
+[14Oct2026 13:19:07.045] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[14Oct2026 13:19:07.045] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: The server will make no attempt to authenticate usernames. Beware.
+[14Oct2026 13:19:07.045] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[14Oct2026 13:19:07.045] [Server thread/WARN] [net.minecraft.server.dedicated.DedicatedServer/]: To change this, set "online-mode" to "true" in the server.properties file.
+[14Oct2026 13:19:07.075] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Preparing level "world"
+[14Oct2026 13:19:07.992] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Preparing start region for dimension minecraft:overworld
+[14Oct2026 13:19:08.202] [worldgen/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Preparing spawn area: 0%
+[14Oct2026 13:19:08.296] [Server thread/INFO] [net.minecraft.server.level.progress.LoggerChunkProgressListener/]: Time elapsed: 302 ms
+[14Oct2026 13:19:08.296] [Server thread/INFO] [net.minecraft.server.dedicated.DedicatedServer/]: Done (1.240s)! For help, type "help"
+[14Oct2026 13:19:08.303] [LanServerPinger #1/WARN] [net.minecraft.client.server.LanServerPinger/]: LanServerPinger: Invalid argument: sendto
+[14Oct2026 13:19:08.319] [Server thread/INFO] [net.neoforged.neoforge.gametest.GameTestHooks/]: Enabled Gametest Namespaces: [cucumbass]
+[14Oct2026 13:19:08.323] [Server thread/INFO] [net.neoforged.neoforge.server.permission.PermissionAPI/]: Successfully initialized permission handler neoforge:default_handler
+[14Oct2026 13:19:15.832] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: There are 0 of a max of 20 players online: 
+[14Oct2026 13:19:29.014] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: Dev[/[::1]:59368] logged in with entity id 45 at (46.487548238836304, 64.0, -2.7339139031812545)
+[14Oct2026 13:19:29.035] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev joined the game
+[14Oct2026 13:19:33.961] [Server thread/INFO] [net.minecraft.server.players.PlayerList/]: TestSubject[/[::1]:59485] logged in with entity id 149 at (50.97901987628072, 64.0, -2.6815954489672644)
+[14Oct2026 13:19:33.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TestSubject joined the game
+[14Oct2026 13:20:02.128] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Set TestSubject's game mode to Survival Mode
+[14Oct2026 13:26:49.529] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TestSubject was slain by Zombie
+[14Oct2026 13:29:24.368] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TestSubject moved too quickly! -12.084091452681406,1.0,18.038331082720738
+[14Oct2026 13:29:24.370] [Server thread/WARN] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TestSubject moved too quickly! -12.084091452681406,1.0,18.038331082720738
+[14Oct2026 13:29:29.879] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: TestSubject lost connection: Disconnected
+[14Oct2026 13:29:29.880] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: TestSubject left the game
+[14Oct2026 13:29:32.478] [Server thread/INFO] [net.minecraft.server.network.ServerGamePacketListenerImpl/]: Dev lost connection: Disconnected
+[14Oct2026 13:29:32.478] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Dev left the game
+[14Oct2026 13:39:10.734] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2410ms or 48 ticks behind
+[14Oct2026 13:44:13.187] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2463ms or 49 ticks behind
+[14Oct2026 13:49:15.599] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2425ms or 48 ticks behind
+[14Oct2026 13:54:18.071] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2497ms or 49 ticks behind
+[14Oct2026 13:59:20.464] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2439ms or 48 ticks behind
+[14Oct2026 14:04:22.882] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2458ms or 49 ticks behind
+[14Oct2026 14:09:25.302] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2428ms or 48 ticks behind
+[14Oct2026 14:14:27.739] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2464ms or 49 ticks behind
+[14Oct2026 14:19:30.133] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2408ms or 48 ticks behind
+[14Oct2026 14:24:32.574] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2450ms or 49 ticks behind
+[14Oct2026 14:34:35.017] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2443ms or 48 ticks behind
+[14Oct2026 14:39:37.470] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2495ms or 49 ticks behind
+[14Oct2026 14:44:39.869] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2445ms or 48 ticks behind
